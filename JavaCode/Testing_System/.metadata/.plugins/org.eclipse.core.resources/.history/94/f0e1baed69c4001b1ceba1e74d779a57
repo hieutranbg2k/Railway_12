@@ -1,0 +1,11 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+	//String hoTen = "Tran Dang Hieu"	;
+	//System.out.println("Hello World !!!");
+	//System.out.println("Ten toi la: " + hoTen);
+	System.out.println("Tong cua"+ a + " va " + b 	+ " la:" + (a+b));
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		int a = 1;
+		int b = 5;
+		char c;
+		int[] mangSo = { 1, 2, 3 };
+		String hoTen = "Trần Đăng Hiếu";
+		// System.out.println("Hello World !!!");
+		// System.out.println("Ten toi la: " + hoTen);
+		for (int i = 0; i < mangSo.length; i++) {
+			System.out.println("So thu " + i + " la :" + mangSo[i] ) ;
+		}
+	}
+
+}

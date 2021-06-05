@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="HelloWorld.Department"/>
+    <fullyQualifiedTypeName name="HelloWorld.PositonName"/>
+    <fullyQualifiedTypeName name="HelloWorld.Group"/>
+    <fullyQualifiedTypeName name="HelloWorld.TypeQuestion"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.AccountException"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="HelloWorld.Exam"/>
+    <fullyQualifiedTypeName name="HelloWorld.CategoryQuestion"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="HelloWorld.Answer"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="HelloWorld.Question"/>
+    <fullyQualifiedTypeName name="HelloWorld.Account"/>
+</qualifiedTypeNameHistroy>

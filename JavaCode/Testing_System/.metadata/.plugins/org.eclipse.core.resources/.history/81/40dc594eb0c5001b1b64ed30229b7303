@@ -1,0 +1,159 @@
+package HelloWorld;
+
+import java.util.Date;
+
+public class FistClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//      DEPARTMENT
+		Department department1 = new Department();
+		department1.id = 1;
+		department1.departmentName = "Sale";
+		
+		Department department2 = new Department();
+		department2.id = 2;
+		department2.departmentName = "Marketing";
+		
+		Department department3 = new Department();
+		department3.id = 3;
+		department3.departmentName = "IT";
+		
+		System.out.println("id: " + department1.id);
+		System.out.println("departmentName: " + department1.departmentName);
+		System.out.print("\n");
+		
+		System.out.println("id: " + department2.id);
+		System.out.println("departmentName: " + department2.departmentName);
+		System.out.print("\n");
+		
+		System.out.println("id: " + department3.id);
+		System.out.println("departmentName: " + department3.departmentName);
+		System.out.print("\n");
+		
+		
+
+//		POSITION				
+		Position position1 = new Position();
+		position1.id = 1;
+		position1.positionName = PositonName.DEV;
+		
+		Position position2 = new Position();
+		position2.id = 2;
+		position2.positionName = PositonName.SCRUM_MASTER;
+		
+		Position position3 = new Position();
+		position3.id = 3;
+		position3.positionName = PositonName.TEST;
+		
+		System.out.println("id:" + position1.id);
+		System.out.println("PositonName:" + position1.positionName);
+		System.out.print("\n");
+
+		System.out.println("id:" + position2.id);
+		System.out.println("PositonName:" + position2.positionName);
+		System.out.print("\n");
+		
+		System.out.println("id:" + position3.id);
+		System.out.println("PositonName:" + position3.positionName);
+		System.out.print("\n");
+		
+//		GROUP		
+		Group group1 = new Group();
+		group1.id = 1;
+		group1.groupName = "Group 1 ";
+
+		Group group2 = new Group();
+		group2.id = 2;
+		group2.groupName = "Group 2 ";
+
+		Group group3 = new Group();
+		group3.id = 3;
+		group3.groupName = "Group 3 ";
+
+//		ACCOUNT		
+		Account account1 = new Account();
+		account1.id = 5;
+		account1.email = "hieutranbg2k@gmail.com";
+		account1.fullName = "Tran Dang Hieu";
+		account1.userName = "hieutran99";
+		account1.department = department1;
+		account1.position = position1;
+		Date date1 = new Date();
+		account1.createDate = date1;
+		
+		Account account2 = new Account();
+		account2.id = 5;
+		account2.email = "hieutranbg2k@gmail.com";
+		account2.fullName = "Tran Dang Hieu";
+		account2.userName = "hieutran99";
+		account2.department = department2;
+		account2.position = position2;
+		Date date2 = new Date();
+		account2.createDate = date2;
+
+
+		Group[] dsNhom = { group1, group2, group3 };
+		account1.dsNhom = dsNhom;
+		System.out.println("ID nhan vien:" + account1.id);
+		System.out.println("Ten nhan vien:" + account1.fullName);
+		System.out.println("Email nhan vien:" + account1.email);
+		System.out.println("Phong ban nhan vien:" + account1.department.departmentName);
+		System.out.println("Vi tri nhan vien:" + account1.position.positionName);
+		System.out.println("Ngay vao cong ty:" + account1.createDate.toString());
+		System.out.println("Nhan vien o trong nhom: ");
+		for (int i = 0; i < account1.dsNhom.length; i++) {
+			System.out.println(account1.dsNhom[i].groupName);
+		}
+
+	}
+////		POSITION				
+//		Position position = new Position();
+//		position.id = 2;
+//		position.positionName = PositonName.DEV;
+//		System.out.println("id:" + position.id);
+//		System.out.println("PositonName:" + position.positionName);
+//		System.out.print("\n");
+//
+////		GROUP		
+//		Group group1 = new Group();
+//		group1.id = 1;
+//		group1.groupName = "Group 1 ";
+//
+//		Group group2 = new Group();
+//		group2.id = 2;
+//		group2.groupName = "Group 2 ";
+//
+//		Group group3 = new Group();
+//		group3.id = 3;
+//		group3.groupName = "Group 3 ";
+//
+////		ACCOUNT		
+//		Account account = new Account();
+//		account.id = 5;
+//		account.email = "hieutranbg2k@gmail.com";
+//		account.fullName = "Tran Dang Hieu";
+//		account.userName = "hieutran99";
+//		account.department = department;
+//		account.position = position;
+//		Date date = new Date();
+//		account.createDate = date;
+//
+//		Group[] dsNhom = { group1, group2, group3 };
+//		account.dsNhom = dsNhom;
+//		System.out.println("ID nhan vien:" + account.id);
+//		System.out.println("Ten nhan vien:" + account.fullName);
+//		System.out.println("Email nhan vien:" + account.email);
+//		System.out.println("Phong ban nhan vien:" + account.department.departmentName);
+//		System.out.println("Vi tri nhan vien:" + account.position.positionName);
+//		System.out.println("Ngay vao cong ty:" + account.createDate.toString());
+//		System.out.println("Nhan vien o trong nhom: ");
+//		for (int i = 0; i < account.dsNhom.length; i++) {
+//			System.out.println(account.dsNhom[i].groupName);
+//		}
+//
+//	}
+
+}
+

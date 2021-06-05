@@ -1,0 +1,15 @@
+package HelloWorld;
+
+import java.util.Date;
+
+public class Question {
+	int 				id;
+	String 				content;
+	CategoryQuestion 	category;
+	TypeQuestion 		typeID;
+	Account 			creator;
+	Date 				createDate;
+	Exam[]				exams;
+	
+
+}

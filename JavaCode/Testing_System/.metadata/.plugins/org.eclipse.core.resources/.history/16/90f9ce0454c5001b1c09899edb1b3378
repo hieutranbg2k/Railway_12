@@ -1,0 +1,10 @@
+package HelloWorld;
+
+public class GroupAccount {
+	int id;
+	Account account;
+	
+	
+	
+
+}

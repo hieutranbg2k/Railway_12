@@ -1,0 +1,13 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		int a= 1;
+		int b= 5;
+	//String hoTen = "Trần Đăng Hiếu"	;
+	//System.out.println("Hello World !!!");
+	//System.out.println("Ten toi la: " + hoTen);
+	System.out.println("Tong cua " + a + " va " + b 	+ " la =" + ( a + b ) );
+	}
+
+}
